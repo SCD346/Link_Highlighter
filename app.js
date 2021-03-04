@@ -5,8 +5,6 @@ document.body.append(highlight);
 
 
 function highlightlink() {
-    // console.log('hightlight');
-    // console.log(this);
     const linkCoords = this.getBoundingClientRect();
     console.log(linkCoords);
     const coords = {
